@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+.all_wrapper{
+	width: 80%;
+	margin: 0 auto;
+	height: auto;
+	margin-top: 2rem;
+}
+.all_wrapper img{
+	margin: 0 auto;
+}
+.profile{
+	width: 100%;
+	margin: 0 auto;
+
+}
+h3{
+	font-size: 1.75rem;
+	letter-spacing: 0.25rem;
+}
+table{
+	border-collapse:  collapse;     /* セルの線を重ねる */
+	margin: 0;
+	width:100%;
+	margin-bottom: 3rem;
+}
+th{
+	color: #000000;
+}
+td{
+	background-color: white;
+	color: #000000;
+}
+th,td{
+	width:100%;
+	display:block;
+	border: solid 1px pink;
+	height:auto;
+	text-align: left;
+	vertical-align: middle;
+	padding:0.5rem;
+}
+th{
+	background-color: pink;
+}
+ul.pan_ul{
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+li.pan_li{
+	
+	list-style-type: none;
+}
+li.pan_li::after{
+	content: '>';
+	padding: 0 0.5rem;
+	color: #737373;
+}
+li.pan_li:last-child::after{
+	content: normal;
+}
+body .wrap .change_ul{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.ChangePhoto{
+	margin: 0;
+	padding: 1rem 0.1rem;
+	cursor: pointer;
+	max-height: 7rem;
+}
+img.change{
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	height: auto;
+}
+img.top_list{
+	display: block;
+	float: left;
+	width: 1.75rem;
+	padding-top: 0.5rem;
+	margin-right: 0.5rem;
+}

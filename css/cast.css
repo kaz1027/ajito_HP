@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h3{
+	margin-top: -2rem;
+}
+h3 img{
+	margin: 0 auto;
+	margin-bottom: -1.5rem;
+	height: 8rem;
+	width: auto;
+}
+.cast_wrapper{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	padding: 1.5rem;
+	margin-top: -3.5rem;
+}
+.cast{
+	padding: 0.4rem;
+	width: calc(100%/3);
+	height: auto;
+}

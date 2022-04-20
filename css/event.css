@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+h3{
+	margin-top: -3rem;
+}
+h3 img{
+	margin: 0 auto;
+	height: 10rem;
+	width: auto;
+	margin-bottom: -0.5rem;
+}
+.event_wrapper{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: -2rem;
+	margin-bottom: 0.5rem;
+}
+table{
+	border-collapse:  collapse;     /* セルの線を重ねる */
+	margin: 0 auto;
+	width: 80%;
+	margin-bottom: 8rem;
+}
+th,td {
+	height:3rem;
+	text-align: center;
+	padding:0.5rem;
+}
+th{
+	background-color: #373737;
+	width: 40%;
+}
+
+td{
+	width: 60%;
+	background-color: white;
+	color: #373737;
+	font-weight: bold;
+}
+span.week{
+	font-size: 0.75rem;
+	letter-spacing: 0.1rem;
+}
+

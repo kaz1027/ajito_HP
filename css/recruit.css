@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+h3{
+	margin-top: -2rem;
+}
+body h4{
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+h3 img{
+	margin: 0 auto;
+	height: 10rem;
+	width: auto;
+	border-bottom: -5rem;
+}
+body .recruit img{
+	width: 90%;
+	margin: 0 auto;
+	padding: 0;
+	margin-top: 0.75rem;
+	margin-bottom: -1.25rem;
+}
+.recruit_btn{
+	display: flex;
+	justify-content: center;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	position: fixed;
+	bottom: -0.5rem;
+	z-index: 10000;
+}
+.recruit_btn a{
+	margin: 1rem;
+}
+.recruit_btn a:hover{
+	opacity: 0.5;
+}
+.recruit{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 3rem;
+	padding-bottom: 3rem;
+	background: white;
+	border-radius: 10px;
+	border-top: 15px solid pink;
+	box-shadow: 2px black;
+	margin-top: -1.5rem;
+}
+.recruit img{
+	width: 95%;
+	margin: 0.5rem auto -1rem;
+}
+h4{
+	margin-top: 1.5rem;
+	margin-bottom: 0.5rem;
+	color: pink;
+	font-size: 2rem;
+	text-align: center;
+}
+p,table{
+	color: #1C0202;
+}
+.recruit p{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+}
+table{
+	width: 90%;
+	margin: 0 auto;
+	border-collapse:  collapse;     /* セルの線を重ねる */
+}
+th{
+	width: 20%;
+	color: #1C0202;
+	background: pink;
+}
+td{
+	line-height: 1.75;
+	}
+th,td{
+	border: 1px solid #1C0202;
+	padding: 0.5rem;
+}
+ul{
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -2.5rem;
+}
+li{
+	width: calc(100%/2);
+	list-style-type: none;
+	padding-left: 1.5rem;
+	padding-bottom: 0.5rem;
+	position: relative;
+	font-size: 12px;
+}
+li::before{
+content: "";
+	background: url("../photo/check.png") no-repeat center center/contain;
+	position: absolute;
+	width: 1rem; height: 1rem;
+	display: block;
+	left: 0;
+	top: 50%;
+	transform: translateY(-60%);
+	-webkit-transform: translateY(-60%);
+	padding-bottom: 3rem;
+	z-index: 1000;
+}
+.bg{
+	font-weight: bold;
+	font-size: 2rem;
+}
+.md{
+	color: #ff90ce;
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+.man{
+	border-top: 15px solid #808098;
+}
+.man h4{
+	color: #808098;
+}
+.man th{
+	background: #808098;
+	color: white;
+}
+.man li::before{
+content: "";
+	background: url("../photo/check_gray.png") no-repeat center center/contain;
+}
+.info{
+		border-top: 15px solid #00C300;
+	margin-bottom: 10rem;
+}
+.info h4{
+	color: #00C300;
+}
+.info th{
+	background: #00C300;
+	color: white;
+}
+.info th,td a{
+		color: black;
+}
+.recruit_tel{
+	font-size: 1.5rem;
+}
+#rec3 img{
+	width:70%;
+	margin: 0 auto;;
+}
+#rec3 td{
+	text-align: center;
+}
+.izyou{
+	font-size: 1.25rem;
+}
